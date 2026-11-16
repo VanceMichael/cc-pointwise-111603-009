@@ -1,0 +1,11 @@
+[
+  {
+    "records": [
+      "L1:L1-20",
+      "L2:L2-44"
+    ],
+    "action": "merge",
+    "decisionRevision": 1,
+    "canonical": "book-20"
+  }
+]

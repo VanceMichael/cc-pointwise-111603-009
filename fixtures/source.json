@@ -1,0 +1,82 @@
+{
+  "stages": {
+    "opening": {
+      "routes": {
+        "/libraries/L1/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L1-20",
+                "library": "L1",
+                "title": "Local Atlas",
+                "isbn": null,
+                "edition": "2",
+                "holdings": 2,
+                "modifiedAt": "2026-11-16T08:00:00Z"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"opening\""
+        },
+        "/libraries/L2/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L2-44",
+                "library": "L2",
+                "title": "Local Atlas",
+                "isbn": "9780000000002",
+                "edition": "2",
+                "holdings": 3,
+                "modifiedAt": "2026-11-16T08:00:00Z"
+              }
+            ],
+            "next": null
+          }
+        }
+      }
+    },
+    "updated": {
+      "routes": {
+        "/libraries/L1/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L1-20",
+                "library": "L1",
+                "title": "Local Atlas",
+                "isbn": "9780000000002",
+                "edition": "2",
+                "holdings": 2,
+                "modifiedAt": "2026-11-16T09:00:00Z"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"updated\""
+        },
+        "/libraries/L2/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L2-44",
+                "library": "L2",
+                "title": "Local Atlas",
+                "isbn": "9780000000002",
+                "edition": "2",
+                "holdings": 3,
+                "modifiedAt": "2026-11-16T08:00:00Z"
+              }
+            ],
+            "next": null
+          }
+        }
+      }
+    }
+  }
+}

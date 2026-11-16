@@ -1,20 +1,17 @@
 [
   {
-    "sourceId": "library-catalog-demo-1",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:00:00Z",
-    "label": "书目记录",
+    "sourceId": "L1-20",
+    "source": "联合馆藏导入器",
+    "observedAt": "2026-11-16T08:00:00Z",
+    "label": "Local Atlas",
     "attributes": {
-      "sample": true
-    }
-  },
-  {
-    "sourceId": "library-catalog-demo-2",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:05:00Z",
-    "label": "书目记录 2",
-    "attributes": {
-      "sample": true
+      "localId": "L1-20",
+      "library": "L1",
+      "title": "Local Atlas",
+      "isbn": null,
+      "edition": "2",
+      "holdings": 2,
+      "modifiedAt": "2026-11-16T08:00:00Z"
     }
   }
 ]
