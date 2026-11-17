@@ -35,7 +35,8 @@
               }
             ],
             "next": null
-          }
+          },
+          "etag": "\"opening-l2\""
         }
       }
     },
@@ -74,7 +75,48 @@
               }
             ],
             "next": null
-          }
+          },
+          "etag": "\"updated-l2\""
+        }
+      }
+    },
+    "editions": {
+      "routes": {
+        "/libraries/L1/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L1-31",
+                "library": "L1",
+                "title": "Local Atlas",
+                "isbn": null,
+                "edition": "2",
+                "holdings": 1,
+                "modifiedAt": "2026-11-16T10:00:00Z"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"editions-l1\""
+        },
+        "/libraries/L2/catalog": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "localId": "L2-58",
+                "library": "L2",
+                "title": "Local Atlas",
+                "isbn": null,
+                "edition": "3",
+                "holdings": 4,
+                "modifiedAt": "2026-11-16T10:00:00Z"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"editions-l2\""
         }
       }
     }

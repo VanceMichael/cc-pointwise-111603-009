@@ -8,5 +8,5 @@ export const schema = Object.freeze({
     "observedAt",
     "label"
   ],
-  "description": "图书馆目录的多编号去重"
+  "description": "图书馆目录的来源身份与联合目录身份分离，人工确认合并或拆分"
 });

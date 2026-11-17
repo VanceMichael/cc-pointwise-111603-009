@@ -35,7 +35,9 @@ test('service persists accepted records and restarts from repository state', asy
   try {
     const path = join(directory, 'state', 'records.json');
     const service = new CollectionService(new RecordRepository(path));
-    assert.deepEqual(await service.ingest([sample('r-1', '2026-11-16T09:00:00Z')]), { accepted: 1, stored: 1 });
+    const result = await service.ingest([sample('r-1', '2026-11-16T09:00:00Z')]);
+    assert.equal(result.accepted, 1);
+    assert.equal(result.stored, 1);
     const restarted = new CollectionService(new RecordRepository(path));
     assert.equal((await restarted.query({})).length, 1);
     assert.equal(JSON.parse(await readFile(path, 'utf8')).records[0].sourceId, 'r-1');
